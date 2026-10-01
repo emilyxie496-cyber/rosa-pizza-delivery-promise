@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+streamlit>=1.57,<2
+git+https://github.com/zhouy185/rosa-starter.git

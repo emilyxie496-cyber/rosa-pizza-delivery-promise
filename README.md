@@ -3,6 +3,9 @@
 MMGMT 722 Assignment 1: descriptive delivery analysis and a search for the best
 tested delivery promise using the professor's simulator. Staffing stays fixed.
 
+[Open the deployed app](https://rosa-pizza-delivery-promise.streamlit.app/)
+· [GitHub repository](https://github.com/emilyxie496-cyber/rosa-pizza-delivery-promise)
+
 ## Results
 
 With seed 1 and the supplied costs, Far West / Fri-Sat evening has 36.7% late
@@ -47,8 +50,14 @@ Regeneration replaces notebook outputs; execute it afterward. Update
 lateness, cost/profit arithmetic, seed repeatability, candidate regeneration,
 ties, range expansion, invalid inputs, and app scenarios.
 The notebook has executed successfully from a fresh kernel with 19 code cells
-and two saved plots. Local rendered app and notebook review is in progress.
-Cloud deployment is not yet verified.
+and two saved plots; it also passed an execution check in a directory without
+the shared Python module. The rendered notebook tables and both plots were
+reviewed. Streamlit Community Cloud deployment was verified in a public browser
+session without login. Default inputs returned 55 minutes / $1,212.40;
+North / Lunch with margin 12, refund 20, and churn 3 returned 50 minutes /
+$1,928.00, matching the local calculations. All currency text was checked in
+the rendered app after correcting Markdown dollar-sign escaping. The deployed
+recommendation cards and chart were also inspected at a 390-pixel screen width.
 
 ## Deploy and submit
 
@@ -56,8 +65,8 @@ Use Streamlit Community Cloud, repository `rosa-pizza-delivery-promise`, branch
 `main`, entry point `app.py`. No API key or other secrets are required.
 The professor's package URL is included in `requirements.txt`.
 
-Submit `Rosa_Pizza_Assignment1.ipynb` to A2L after both published links have
-been added and student review is complete. The supplied course PDFs and local
+Both published links are included in the notebook. Submit
+`Rosa_Pizza_Assignment1.ipynb` to A2L after student review is complete. The supplied course PDFs and local
 environment are ignored by Git and are not part of the public repository.
 
 ## Provenance and AI use

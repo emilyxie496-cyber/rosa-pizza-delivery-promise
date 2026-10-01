@@ -29,5 +29,11 @@ seed 1 recommends 55 minutes and $1,212.40 estimated net profit. Across ten
 seeds, 55 minutes wins seven times and 60 minutes wins three times.
 
 Codex reviewed rendered output and corrected dollar-sign Markdown rendering.
-Publication and final browser validation status will be updated when verified.
+Codex created and pushed the public GitHub repository and deployed app.py to
+Streamlit Community Cloud. Public browser checks without login confirmed
+55 minutes / $1,212.40 at defaults and 50 minutes / $1,928.00 for North / Lunch
+with margin 12, refund 20, and churn 3. Notebook tables and both plots were
+reviewed; a second notebook execution in a directory without the shared module
+verified its single-file portability. Both publication URLs were added to the
+submission notebook.
 No student review is claimed by these agent-run checks.

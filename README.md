@@ -1,7 +1,7 @@
 # Rosa's Pizza delivery promise
 
-MMGMT 722 Assignment 1: descriptive delivery analysis and a search for the best
-tested delivery promise using the professor's simulator. Staffing stays fixed.
+Assignment 1: descriptive delivery analysis and a search for the best
+tested delivery promise.
 
 [Open the deployed app](https://rosa-pizza-delivery-promise.streamlit.app/)
 · [GitHub repository](https://github.com/emilyxie496-cyber/rosa-pizza-delivery-promise)
